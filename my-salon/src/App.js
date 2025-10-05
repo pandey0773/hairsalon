@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import Login from "./components/Login";
 import UserDashboard from "./components/UserDashboard";
 import BookingList from "./components/BookingList";
+import Counter from "./components/Counter";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ const Home = () => (
   <div style={{ textAlign: "center", marginTop: "5rem" }}>
     <h1>Welcome to the Hair Salon Booking App</h1>
     <p>Please login to book or manage bookings.</p>
+    <Counter/>
   </div>
 );
 
